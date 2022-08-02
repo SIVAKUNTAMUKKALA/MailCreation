@@ -13,6 +13,6 @@ Navigate to Scripts folder & Open the Script file
 
 You will find one Test Script for creating multiple email accounts
 
-Simply changes the 
+Simply change the ${NumberOfEmailsToBeCreated} variable with how many emails to be generated (count) and Run the test case.
 
 
