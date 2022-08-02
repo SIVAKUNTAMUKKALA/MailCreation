@@ -7,5 +7,12 @@ Robot Framework RIDE,
 Selenium Library,
 Eclipse with RED Editor & PyDev
 
+After the installation, import the repository into RIDE or Eclipse
+
+Navigate to Scripts folder & Open the Script file
+
+You will find one Test Script for creating multiple email accounts
+
+Simply changes the 
 
 
