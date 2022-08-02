@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<projectConfiguration>
+    <configVersion>2</configVersion>
+    <relativeTo>WORKSPACE</relativeTo>
+    <referencedLibrary type="PYTHON" name="SeleniumLibrary" path="C:/Users/sivak/AppData/Roaming/Python/Python37/site-packages/SeleniumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="clipboard" path="C:/Users/sivak/AppData/Roaming/Python/Python37/site-packages/clipboard.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="ExcelLibrary" path="C:/Users/sivak/AppData/Roaming/Python/Python37/site-packages/ExcelLibrary.py" dynamic="false"/>
+    <pythonpath/>
+    <classpath/>
+    <excludedForValidation/>
+    <isValidatedFileSizeCheckingEnabled>true</isValidatedFileSizeCheckingEnabled>
+    <validatedFileMaxSize>1024</validatedFileMaxSize>
+</projectConfiguration>
