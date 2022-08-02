@@ -131,6 +131,7 @@ Create User Define Number Of Accounts
         Log    ${FinalFirstFive}
         ${FinalSIN}=   Catenate    SEPARATOR=  ${SINFourDigits}   ${FinalFirstFive} 
         Input Text    ${SIN}    ${FinalSIN}
+        Log To Console    ${FinalSIN}    
         Input Text    ${DOB}    12121987
         Click Element    ${EmpID}    
         Wait Until Page Contains Element    ${AddInviteEmployee}    ${MAX_WAIT}
@@ -160,7 +161,8 @@ Create User Define Number Of Accounts
         ${UserCreatedEmail}=    Get Text    xpath=(//p)[3]
         Set Test Variable    ${UserCreatedEmail}    
         Log To Console    ${UserCreatedEmail} 
-        Log    ${UserCreatedEmail}                 
+        Log    ${UserCreatedEmail}  
+        Log To Console    ---------------------                   
         # Select Window    MAIN
         # Wait Until Page Contains Element    ${SecureEmailLink}    ${MAX_WAIT} 
         # ${ele}    Get WebElement    //a[text()="numbersgh.com invites you to build Emergency Savings with SecureSave"]
